@@ -32,7 +32,7 @@ namespace FormSaludo_2023_II
             this.btnAceptar.Text = "Aceptar";
             this.btnAceptar.Location = new Point(50, 150);
             this.btnAceptar.Size = new Size(70,40);
-
+            this.btnAceptar.Click += new EventHandler(btnAceptar_Click);
 
             //Agregando el componente al Formulario
             //para ser mostrado
